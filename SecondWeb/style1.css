@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+    font-family: myfont;
+    src: url(Kaira.otf);
+}
+@font-face {
+    font-family: myfont2;
+    src: url(storm.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+}
+.main-header {
+    background-image: url(p.jpg);
+    padding-bottom: 40px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    margin-bottom: 30px;
+}
+.nav {
+    border-bottom: 1px solid rgba( 255, 255, 255, .3);
+}
+.nav ul {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav li {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.nav  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;   
+}
+.nav li:hover { 
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all .2s linear;
+}
+.band-name {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-family: myfont;
+    font-weight: normal;
+}
+.band-name-large {
+    font-size: 8em;
+}
+
+.main-section {
+    margin-bottom: 200px;
+}
+
+
+.btn {
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn-header {
+    margin: 8px 15% 32px 15%;
+    border: 2px solid #2d9cdb;
+    color: white;
+    background-color: rgba(255, 255, 255, .1);
+    font-size: 24px;
+    font-weight: lighter;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #2d9cdb;
+    font-size: 64px;
+    padding: 5px 15px 5px 23px;
+}
+
+.section-header {
+    font-family: myfont2;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 38px;
+    
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding: 16px;
+    margin: 16px;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    padding-right: 8px;
+    display: inline-block;
+    text-align: center;
+}
+.tour-date {
+    font-weight: bold;
+    color: #555;
+    width: 11%;
+}
+.tour-city {
+    width: 24%;
+}
+.tour-arena {
+    width: 42%;
+}
+.tour-btn {
+    max-width: 19%;
+    
+}
+
+.btn-primary {
+    background-color: #56ccf2;
+    color: white;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+.btn-primary:hover {
+    background-color: #2d9cdb;
+    transform: scale(1.1);
+    transition: all .3s linear;
+}
+
+.main-footer {
+    background-color: #2d9cdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-footer h3 {
+    padding-left: 40px;
+}
+.main-footer ul {
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    gap: 70px;
+    margin-right: 40px;
+    align-items: center;
+}
+.main-footer li {
+    list-style-type: none;
+}
+.main-footer img {
+    width: 40px;
+    padding-top: 4px;
+    
+}
